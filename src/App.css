@@ -1,0 +1,53 @@
+/* סידור הרכיבים זה לצד זה בשורה */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  color: #ffffff; 
+}
+
+.components-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.checklist-wrapper {
+  background-color: #fa8db1;
+  color: #111111 !important;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.checklist-wrapper * {
+  color: #111111 !important;
+}
+
+.time-wrapper {
+  background-color: #faa4f2; 
+  color: #111111 !important;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.time-wrapper * {
+  color: #111111 !important;
+}
+
+.motivation-wrapper {
+  background-color: #c6f5d0; 
+  color: #111111 !important;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.motivation-wrapper * {
+  color: #111111 !important;
+}
